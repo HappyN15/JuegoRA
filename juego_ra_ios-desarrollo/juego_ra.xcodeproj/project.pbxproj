@@ -253,9 +253,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V624A3T7L3;
+				DEVELOPMENT_TEAM = 687Y6A23UB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = Snap;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "El segundo permiso";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "PAra solictiar permisos de usar la ubicacion, su descripcion de uso";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "El tercer permiso";
@@ -269,7 +270,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "UACJ-Alumnos.juego-ra";
+				PRODUCT_BUNDLE_IDENTIFIER = "UACJ-ddmi-alumnos-juego-ra-equipoEX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -284,9 +285,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V624A3T7L3;
+				DEVELOPMENT_TEAM = 687Y6A23UB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = Snap;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "El segundo permiso";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "PAra solictiar permisos de usar la ubicacion, su descripcion de uso";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "El tercer permiso";
@@ -300,7 +302,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "UACJ-Alumnos.juego-ra";
+				PRODUCT_BUNDLE_IDENTIFIER = "UACJ-ddmi-alumnos-juego-ra-equipoEX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
