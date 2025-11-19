@@ -22,7 +22,7 @@ struct PantallaPrincipal: View{
                     NavigationLink{
                         SelectorPantallaPista(pista_id: pista.id)
                     } label: {
-                        Text("Puchopicame para ir a la pista \(pista.id)")
+                        Text("Obtener pista \(pista.id)")
                     }
                     .buttonStyle(.plain)
                 }
@@ -30,21 +30,21 @@ struct PantallaPrincipal: View{
                     ubicacion: proveedor_ubicacion.ubicacion_actual)
                     ){
                     if let porcentaje = pista.calcular_porcentaje(ubicacion: proveedor_ubicacion.ubicacion_actual){
-                        Text("Distancia en porcentaje \(porcentaje)")
+                        Text("La grieta esta \(porcentaje) en distancia")
                         switch(porcentaje){
                             case 1...10:
                                 NavigationLink{
                                     SelectorPantallaPista(pista_id: pista.id)
                                 } label: {
-                                    Text("Puchopicame para ir a la pista \(pista.id)")
+                                    Text("Obtener \(pista.id)")
                                 }
                                 .buttonStyle(.plain)
                             case 11...20:
-                                Text("Te estas acercando")
+                                Text("Hay una grieta cerca")
                             case 21...30:
                                 Text("Estas acercandote")
                             default:
-                                Text("Muy lejos")
+                                Text("No hay una grieta cerca")
                         }
                     }
                 }

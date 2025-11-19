@@ -1,9 +1,4 @@
-//
-//  pantalla_pista_interactuable.swift
-//  juego_ra
-//
-//  Created by Jadzia Gallegos on 10/11/25.
-//
+
 import SwiftUI
 
 struct PantallaPistaInteractuable: View {
